@@ -83,3 +83,9 @@ New features such as certification count were created
 Categorical variables were encoded using dummy variables
 
 All candidate with high AI scores got hired, meaning AI score feature have the haighest influunce in Recruiter Decision. The least AI scored applicant who got accepted is 65 score. Hired candidates consistently have more experience than rejected ones across all education levels. On the hand, Job Role feature, Software Engineer have the haighest hireing percent with 83.69098%, while other job roles show similar percentages. The skills that influnce hiring and most hired applicants have are Python,SQL, and NLP. However, when looking at certificate Applicants with at least one certification have a slightly higher hiring rate 82.6% compared to those with no certifications 77.4% large number of applicants without certifications were still hired, indicating that certifications are not the primary factor in hiring decisions
+
+## AI model 
+An initial machine learning model was started to predict the Recruiter Decision.
+The goal of the model is to learn patterns from the dataset and determine whether a applicant will likely be hired or rejected based on resume features. 
+###NOTE
+The model shows high accuracy 96%, but this may be influenced by class imbalance recutier decision(hired/rejected) in the dataset (which I will be working on later). Therefore, accuracy should be interpreted carefully alongside other evaluation metrics.
